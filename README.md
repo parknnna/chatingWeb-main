@@ -1,10 +1,9 @@
 ## 소개
 <img width="80%" src="https://user-images.githubusercontent.com/69619672/175767432-dbd21c40-b2d0-41ac-b386-8ad4c4d6573b.gif"/>
 <br/>
-socket io 라이브러리를 사용한 react-node 연동 채팅웹 서비스
-
-사용자가 채팅방을 만들어 n:m 채팅을 사용할 수 있다.
-채팅 내용은 MongoDB에 document를 쌓아 로그를 남겨 채팅 내용을 저장한다.
+socket io 라이브러리를 사용한 react-node 연동 채팅웹 서비스 <br/>
+사용자가 채팅방을 만들어 n:m 채팅을 사용할 수 있다. <br/>
+채팅 내용은 MongoDB에 로그를 쌓아 채팅 내용을 저장한다.
 
 ## 사용 스택
 <table>
