@@ -1,0 +1,205 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+}
+
+.chating-form {
+  border: 1px solid black;
+  height: 99.7%;
+  vertical-align: middle;
+}
+
+.chating-input {
+  width: 95%;
+  resize: none;
+  height: 20px;
+}
+
+.chating-items-1 {
+  float: left;
+  width: 25%;
+}
+.chating-items-2 {
+  float: left;
+  width: 50%;
+}
+.chating-items-3 {
+  float: right;
+  width: 25%;
+}
+
+.send-button {
+  background-color: #34e2a7;
+  color: #d7fff1;
+  width: 30%;
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 5px 0px;
+  border-radius: 15px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  margin-left: '5px';
+  float: left;
+}
+
+.file-button {
+  background-color: #db6bc3;
+  color: #d7fff1;
+  width: 30%;
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 5px 0px;
+  border-radius: 15px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  margin-left: 5px;
+  float: left;
+}
+
+.container {
+  width: 250px;
+  height: 140px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.container::-webkit-scrollbar {
+  width: 10px;
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+.container::-webkit-scrollbar-track {
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px white;
+}
+
+/* 자신 말풍선 */
+.speech-block-me {
+  padding: 6px;
+  margin: 6px;
+  display: flex;
+}
+.time-me {
+  display: inline-block;
+  align-self: flex-end;
+  margin-left: auto;
+  font-size: 12px;
+}
+.speech-bubble-me {
+  position: relative;
+  background: hsl(120, 83%, 76%);
+  border-radius: .4em;
+  color: rgb(0, 0, 0);
+  float: right;
+  font-size: 20px;
+  padding: 6px;
+  margin-left: 3px;
+}
+.speech-bubble-me:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 13px solid transparent;
+  border-left-color: hsl(120, 83%, 76%);
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: -2.5px;
+  margin-right: -8px;
+}
+
+/* 상대방 말풍선 */
+.speech-block-you{
+  margin: 6px;
+  text-align: right;
+  display: flex;
+}
+.time-you {
+  font-size: 12px;
+  align-self: flex-end;
+}
+.speech-name-you {
+  position: relative;
+  float: left;
+  width: 100px;
+  text-align: left;
+  font-size: 25px;
+}
+.speech-bubble-you {
+  position: relative;
+  background: rgb(190, 197, 197);
+  border-radius: .4em;
+  color: rgb(0, 0, 0);
+  float: left;
+  font-size: 20px;
+  padding: 6px;
+  margin-left: 23px;
+  margin-right: 3px;
+}
+.speech-bubble-you:after {
+  content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 21px solid transparent;
+    border-right-color: rgb(190, 197, 197);
+    border-left: 0;
+    border-top: 0;
+    margin-top: -12px;
+    margin-left: -14px;
+}
+
+.speech-block-global {
+  text-align: center;
+}
+
+/* 메세지폼 */
+.message-form {
+  background-color: rgb(122, 122, 122);
+  border: 1px solid gray;
+  padding: 12px;
+  height: 26px;
+}
+
+@media screen and (max-width:1799px) {
+/* 데스크탑 */
+}
+
+@media screen and (max-width:1199px) {
+/* 타블렛 가로 */
+}
+@media screen and (max-width:899px) {
+/* 모바일 가로, 타블렛 세로 */
+}
+
+@media screen and (max-width:599px) {
+/* 모바일 세로 */
+}
+
+.roomButton {
+  padding: 3px 12px;
+  color: #fff;
+  background-color: #6c757d;
+  border-radius: 10px;
+  font-size: 15px;
+}
